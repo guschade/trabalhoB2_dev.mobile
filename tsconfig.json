@@ -1,0 +1,20 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "app/(tabs)/RegisterScreen.js",
+    "app/(tabs)/Groups.js",
+    "app/(tabs)/GroupDetails.js",
+    "app/(tabs)/index.js",
+    "app/(tabs)/RecoverPasswordScreen.js"
+  ]
+}
